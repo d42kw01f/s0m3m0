@@ -1,9 +1,4 @@
-Below is the **same README**, already written in **pure Markdown**.  
-You can copy-paste this **directly** into `README.md` in your `s0m3m0` repository.
 
----
-
-````markdown
 # s0m3m0
 
 **s0m3m0** is an experimental AI-driven system that scrapes publicly available social media content, processes it using NLP techniques, and generates analytical insights and predictions. The project is designed as a modular research prototype combining data collection, preprocessing, and AI-based analysis, with a lightweight dashboard for visualisation.
