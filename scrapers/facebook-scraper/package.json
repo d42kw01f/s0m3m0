@@ -1,0 +1,41 @@
+{
+  "name": "s0m3m0",
+  "version": "1.0.0",
+  "description": "Social Media Monitoring Tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/facebook_PageScraper.js 'https://facebook.com/LokuTalksTheOriginal' 'Wed Jul 10 2024 12:34:38 GMT+0530 (India Standard Time)'",
+    "dev": "ts-node src/facebook_PageScraper.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/d42kw01f/s0m3m0.git"
+  },
+  "keywords": [
+    "facebook",
+    "twitter",
+    "telegram",
+    "X",
+    "youtube"
+  ],
+  "author": "d42kw01f",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/d42kw01f/s0m3m0/issues"
+  },
+  "homepage": "https://gitlab.com/d42kw01f/s0m3m0#readme",
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.0",
+    "puppeteer": "^22.13.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
